@@ -1,0 +1,67 @@
+#nav-bar {
+top: 0px;
+width: auto;
+position: fixed;
+height: 2px;
+padding: 25px 0px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: pink;
+opacity: 50%;
+}
+
+#header-img {
+    float: left;
+}
+
+@media (max-width: 500px) {
+    body {
+flex-wrap: wrap;
+}
+}
+
+body {
+    background-color: aliceblue;
+}
+
+#mission {
+    background: rgb(169, 215, 255);
+}
+
+#vid-box {
+    display: flex;
+    margin: 0px;
+    align-self: flex-end;
+    object-fit: fill;
+}
+
+#video {
+    width: inherit;
+    height: inherit;
+}
+
+.shop-div {
+    background-color: rgb(246, 202, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.nested-div p{
+    border: 1px solid #ffffff;
+    padding: 20px;
+    margin: 0px;
+}
+
+.img {
+    width: 300px;
+    border: 5px solid #ffffff;
+    margin: 15px;
+}
+
+#sign-up {
+    background-color: rgb(187, 255, 213);
+}

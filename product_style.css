@@ -1,18 +1,20 @@
-#nav-bar {
-top: 0px;
-width: auto;
-position: fixed;
-height: 2px;
-padding: 25px 0px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: pink;
-opacity: 50%;
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 40px;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
 }
 
-#header-img {
-    float: left;
+#nav-bar {
+    margin-right: 50px;
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 @media (max-width: 500px) {
@@ -21,12 +23,15 @@ flex-wrap: wrap;
 }
 }
 
+
 body {
     background-color: aliceblue;
 }
 
 #mission {
     background: rgb(169, 215, 255);
+    margin: 0;
+    padding: 200;
 }
 
 #vid-box {
@@ -34,6 +39,7 @@ body {
     margin: 0px;
     align-self: flex-end;
     object-fit: fill;
+    padding: 0;
 }
 
 #video {
@@ -47,7 +53,12 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;
     grid-template-rows: 1fr 1fr;
+}
 
+#shop {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(246, 202, 255);;
 }
 
 .nested-div p{
@@ -57,11 +68,17 @@ body {
 }
 
 .img {
-    width: 300px;
     border: 5px solid #ffffff;
-    margin: 15px;
+    margin: 40px;
+    margin-left: 70px;
+    margin-top: 50px;
+    height: 400px;
+    width: 325px;
 }
 
 #sign-up {
     background-color: rgb(187, 255, 213);
+    margin: 0;
+    padding: 0;
 }
+

@@ -52,9 +52,9 @@ body {
     box-sizing: border-box;
 }
 
-#sign-up p, h3{
+/* #sign-up p, h3{
     padding-right: ;
-}
+} */
 
 #vid-box {
     display: flex;
@@ -63,7 +63,7 @@ body {
     object-fit: fill;
     padding: 0;
     align-items: center;
-    padding-right: ;
+    /* padding-right: ; */
 }
 
 #video {
@@ -120,7 +120,7 @@ body {
 
 .img {
     margin: 40px;
-    margin-left: ;
+    /* margin-left: ; */
     margin-top: 100px;
     height: 400px;
     width: 325px;
@@ -202,7 +202,7 @@ a {
 
 .nested-div {
     line-height: 0;
-    margin: ;
+    /* margin: ; */
     padding: 0;
     top: 0;
     align-self: center;
